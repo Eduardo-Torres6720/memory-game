@@ -1,0 +1,33 @@
+.container-nivel {
+    background-color: #242424;
+    border-radius: 15px;
+    display: flex;
+    gap: 7px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-nivel button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(13, 73, 45);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+@media only screen and (max-width: 730px) {
+    .container-nivel {
+        width: 250px;
+        height: 250px;
+    }
+}
