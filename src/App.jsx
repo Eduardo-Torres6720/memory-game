@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import GeneratorCard from './components/GeneratorCard'
 import Results from './components/Results'
-import { HandleCards } from './CardsPlanets'
 import NavBar from './components/NavBar'
+import { HandleCards } from './CardsPlanets'
 
 function App() {
   const [cardTrue, setCardTrue] = useState(true)
