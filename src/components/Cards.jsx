@@ -13,7 +13,7 @@ const Cards = (props) => {
                     <img src={planet.img} alt="" />
                 </div>
                 ) : (
-                    <div className="card-noturn">
+                    <div className={cardTrue ? "card-turn" : "card-noturn"}>
                         <img src={cardTrue ? planet.img : "/default.jpg"} alt="" />
                     </div>
             )}

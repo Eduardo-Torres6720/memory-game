@@ -12,9 +12,13 @@
     transform: rotateY(180deg);
 }
 
-.virado.card-noturn {
-    transition: 1s;
+.card-turn {
     transform: rotateY(180deg);
+}
+
+.card-noturn {
+    transition: 1s;
+    transform: rotateY(0);
 }
 
 
